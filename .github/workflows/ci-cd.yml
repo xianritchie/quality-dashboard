@@ -44,7 +44,7 @@ jobs:
           channelId: live
           projectId: quality-dashboard-prod-38986
   deploy_to_test:
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/test'
     needs: test_and_build
     runs-on: ubuntu-latest
     steps:
