@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "quality-dashboard-prod-38986"
-  }
+    "default": "quality-dashboard-prod-38986",
+    "test": "quality-dashboard-test"
+  },
+  "targets": {}
 }
