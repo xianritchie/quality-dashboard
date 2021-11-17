@@ -3,6 +3,6 @@ import App from './App';
 
 test('renders coming soon text', () => {
   render(<App />);
-  const h1Element = screen.getByText(/Coming Soon/i);
+  const h1Element = screen.getByText(/Coming SOon/i);
   expect(h1Element).toBeInTheDocument();
 });
